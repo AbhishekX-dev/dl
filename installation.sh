@@ -7,7 +7,7 @@ mkdir -p ~/DeepLearning
 cd ~/DeepLearning
 
 # 3. Create and activate a virtual environment
-python3.12 -m venv .venv
+python3.12 -m venv --system-site-packages .venv
 source .venv/bin/activate
 
 # 4. Upgrade Python packaging tools
